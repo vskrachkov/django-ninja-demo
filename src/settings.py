@@ -129,3 +129,5 @@ STATICFILES_STORAGE = env.str(
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
 ASGI_APPLICATION = "asgi.application"
+
+GAME_STATS_SERVICE_CLASS = "games.services.RandomGameStatsService"
